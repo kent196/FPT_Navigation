@@ -51,12 +51,12 @@ public class JumpController : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.tag == "Stair")
-        {
-            rb.AddForce(new Vector3(0f, 50f, 0f), ForceMode.Impulse);
-        }
-    }
+    //void OnCollisionEnter(Collision collision)
+    //{
+    //    Debug.Log(collision.gameObject.name);
+    //    if (collision.gameObject.tag == "Stair")
+    //    {
+    //        rb.AddForce(new Vector3(0f, 50f, 0f), ForceMode.Impulse);
+    //    }
+    //}
 }
