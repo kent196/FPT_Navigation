@@ -51,6 +51,10 @@ public class JumpController : MonoBehaviour
         //}
 
         //Set destination with hit points
-        SetDestination();
+        if (Input.GetMouseButtonDown(0))
+        {
+
+            SetDestination();
+        }
     }
 }
